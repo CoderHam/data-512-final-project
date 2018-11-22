@@ -60,88 +60,88 @@ The dataset has been downloaded and added to the [`data`](https://github.com/Cod
 
 | Column | Datatype | Description |
 |---|---|---|
-| Country Code |
-|	Short Name |
-| Table Name |
-| Long Name |
-| 2-alpha code |
-| Currency Unit|
-| Special Notes|
-| Region |
-| Income Group |
-| WB-2 code |
-| National accounts base year |
-| National accounts reference year|
-| SNA price valuation|
-| Lending category |
-| Other groups |
-| System of National Accounts|
-| Alternative conversion factor|
-| PPP survey year|
-| Balance of Payments Manual in use|
-| External debt Reporting status|
-| System of trade|
-| Government Accounting concept|
-| IMF data dissemination standard|
-| Latest population census|
-| Latest household survey|
-| Source of most recent Income and expenditure data|
-| Vital registration complete|
-| Latest agricultural census|
-| Latest industrial data |
-| Latest trade data|
-| Latest water withdrawal data|
+| Country Code | text |
+|	Short Name | text |
+| Table Name | text |
+| Long Name | text |
+| 2-alpha code | text |
+| Currency Unit| text |
+| Special Notes| text |
+| Region | text |
+| Income Group | text |
+| WB-2 code | text |
+| National accounts base year | numeric |
+| National accounts reference year| numeric |
+| SNA price valuation| text |
+| Lending category | text |
+| Other groups | text |
+| System of National Accounts| text |
+| Alternative conversion factor| text |
+| PPP survey year| numeric |
+| Balance of Payments Manual in use| text |
+| External debt Reporting status| text |
+| System of trade| text |
+| Government Accounting concept| text |
+| IMF data dissemination standard| text |
+| Latest population census| numeric
+| Latest household survey| text |
+| Source of most recent Income and expenditure data| text |
+| Vital registration complete| categorical |
+| Latest agricultural census| numeric |
+| Latest industrial data | numeric |
+| Latest trade data| numeric |
+| Latest water withdrawal data| numeric |
 
 2. [**EdStatsCountry-Series.csv**](https://github.com/CoderHam/data-512-final-project/tree/master/data/EdStatsCountry-Series.csv)
 
 | Column | Datatype | Description |
 |---|---|---|
-| CountryCode	|
-| SeriesCode |
-| Description |
+| CountryCode	| text |
+| SeriesCode | text |
+| Description | text |
 
 3. [**EdStatsData.csv**](https://github.com/CoderHam/data-512-final-project/tree/master/data/EdStatsData.csv)
 
 | Column | Datatype | Description |
 |---|---|---|
-|Country Name|
-|Country Code|
-|Indicator Name|
-|Indicator Code|
-|{Year} (1970 to 2017 as with 5 year binned projections till 2100)|
+|Country Name| text |
+|Country Code| text |
+|Indicator Name| text |
+|Indicator Code| text |
+|{Value for the Year} (1970 to 2017 as with 5 year binned projections till 2100)| numeric |
 
 4. [**EdStatsSeries.csv**](https://github.com/CoderHam/data-512-final-project/tree/master/data/EdStatsSeries.csv)
 
 | Column | Datatype | Description |
 |---|---|---|
-|Series Code|
-|Topic|
-|Indicator Name|
-|Short definition|
-|Long definition|
-|Unit of measure|
-|Periodicity|
-|Base Period|
-|Other notes|
-|Aggregation method|
-|Limitations and exceptions|
-|Notes from original source|
-|General comments|
-|Source	Statistical concept and methodology|
-|Development relevance|
-|Related source links|
-|Other web links|
-|Related indicators|
-|License Type|
+|Series Code| text |
+|Topic| text |
+|Indicator Name| text |
+|Short definition| text |
+|Long definition| text |
+|Unit of measure| text |
+|Periodicity| numeric |
+|Base Period| numeric |
+|Other notes| text |
+|Aggregation method| text |
+|Limitations and exceptions| text |
+|Notes from original source| text |
+|General comments| text |
+|Source	Statistical concept and methodology| text |
+|Development relevance| text |
+|Related source links| text |
+|Other web links| text |
+|Related indicators| text |
+|License Type| text |
 
 5. [**EdStatsFootNote.csv**](https://github.com/CoderHam/data-512-final-project/tree/master/data/EdStatsFootNote.csv)
 
 | Column | Datatype | Description |
 |---|---|---|
-| CountryCode|
-| SeriesCode|
-| Year|
-| Description |
+| CountryCode| text |
+| SeriesCode| text |
+| Year| numeric |
+| Description | text |
 
 ## Licenses
 
