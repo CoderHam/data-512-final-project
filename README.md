@@ -22,19 +22,12 @@ Apart from improving the lifestyle of individuals, education helps people find t
 
 While I intend keep an open mind during the study there are a few **Research Questions** I wish to answer:
 
-1. Education and Income
-    1. Is there is a correlation between the number of youth attending school and the level of income? Focus on verifying the claim:
+1. **Education and Income**
+    1. Is there is a correlation between the number of youth attending school and the level of income? My focus was drawn to this by this statement:
 
     **"Children living in a low income countries are twice as likely to be out of school than those children in high income countries. Additionally, children from the wealthiest 20% of the population are 4 times more likely to be in school than the poorest 20%."**[5]
 
-    2. What factors contribute to the lack of students enrolled in schools.
-2. Government's role in Education
-    1. Does governments change their investment in education based on their annual GDP?
-    2. What education sectors does the investment affect and which does it not?
-3. Quality of Education
-    1. What are the factors affecting such as attendance rates quality of Learning?
-    2. Which parts of learning have seen improvements due to recent demands? Has the Math and Science improved in the recent years?
-4. Gender
+2. **Gender**
     1. Does gender impact the enrollment, level and quality of education received?
 
     This article - [Why girls in India are still missing out on the education they need](https://www.theguardian.com/education/2013/mar/11/indian-children-education-opportunities) talks about the problem in India.
@@ -42,6 +35,14 @@ While I intend keep an open mind during the study there are a few **Research Que
     **"India is no longer considered a poor country and yet many children do not receive a good education." - Rachel Williams"**
 
     I intend to test if this is true for other countries with better/worse economies.
+
+3. **Government's role in Education**
+    1. Do governments change their investment in education over time? Is it related to their annual GDP?
+    2. In what components of education does the government invest more in and which does it invest less?
+
+4. **Quality of Education**
+    1. Is the learning outcomes of different subjects negatively correlated i.e. does performing well in one subject correlate with performing badly in another subject?
+    2. Which subjects have seen improvements over time in terms of scores? Has the academic curriculum become harder in the recent years?
 
 ## Human-Centered Design Considerations
 
@@ -210,3 +211,5 @@ There are several claims made online regarding inequality in educations, bias ag
 [10] Gender Parity Inde - [https://unstats.un.org/unsd/mdg/Metadata.aspx?IndicatorId=9](https://unstats.un.org/unsd/mdg/Metadata.aspx?IndicatorId=9)
 
 [11] Guardian Article on 'Why girls in India are still missing out on the education they need' - [https://www.theguardian.com/education/2013/mar/11/indian-children-education-opportunities](https://www.theguardian.com/education/2013/mar/11/indian-children-education-opportunities)
+
+[12] Why education matters for economic development - [http://blogs.worldbank.org/education/why-education-matters-economic-development](http://blogs.worldbank.org/education/why-education-matters-economic-development)
