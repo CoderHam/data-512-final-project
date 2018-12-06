@@ -23,9 +23,9 @@ Apart from improving the lifestyle of individuals, education helps people find t
 While I intend keep an open mind during the study there are a few **Research Questions** I wish to answer:
 
 1. Education and Income
-    1. Is there is a correlation between the number of youth not attending school youth and the level of income? Focus on verifying the claim:
+    1. Is there is a correlation between the number of youth attending school and the level of income? Focus on verifying the claim:
 
-    **"Children living in a rural environment are twice as likely to be out of school than urban children. Additionally, children from the wealthiest 20% of the population are 4 times more likely to be in school than the poorest 20%."**[5]
+    **"Children living in a low income countries are twice as likely to be out of school than those children in high income countries. Additionally, children from the wealthiest 20% of the population are 4 times more likely to be in school than the poorest 20%."**[5]
 
     2. What factors contribute to the lack of students enrolled in schools.
 2. Government's role in Education
@@ -36,6 +36,12 @@ While I intend keep an open mind during the study there are a few **Research Que
     2. Which parts of learning have seen improvements due to recent demands? Has the Math and Science improved in the recent years?
 4. Gender
     1. Does gender impact the enrollment, level and quality of education received?
+
+    This article - [Why girls in India are still missing out on the education they need](https://www.theguardian.com/education/2013/mar/11/indian-children-education-opportunities) talks about the problem in India.
+
+    **"India is no longer considered a poor country and yet many children do not receive a good education." - Rachel Williams"**
+
+    I intend to test if this is true for other countries with better/worse economies.
 
 ## Human-Centered Design Considerations
 
@@ -144,6 +150,20 @@ The dataset has been downloaded and added to the [`data`](https://github.com/Cod
 | Year| numeric | the year for which the data is collected |
 | Description | text | the method of collection/estimation of the indicator |
 
+I added data for the current income levels, as classified by World Bank [7].
+
+6. [**income_group.csv**](https://github.com/CoderHam/data-512-final-project/tree/master/data/income_group.csv)
+
+| Column | Datatype | Description |
+|---|---|---|
+|Economy| text | the name of the country |
+| Code| text | a three digit unique code to represent a country |
+| Region | text | region where the country is location |
+| Income group | text | which income group the country belongs to |
+| Lending category | text | the lending agency for that country as decided by World Bank |
+| Other | text | other World Bank/UN groups that the country belongs to |
+
+
 ## Licenses
 
 The dataset is classified **Public** and is licensed under the [**CC-BY 4.0**](https://datacatalog.worldbank.org/public-licenses#cc-by). A short summary of [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) is that under this license, individuals are free to copy and redistribute data in any medium as well as modify and build upon the data for all purposes including commercially.
@@ -165,7 +185,7 @@ Apart from the data being reported by multiple agencies to the World Bank Group 
 
 ## Conclusions
 
-There are several claims made online regarding inequality in educations, bias towards male education and relation between income and education. I wish to investigate these claims and find other such trends in the dataset.
+There are several claims made online regarding inequality in educations, bias against female education [11] and relation between income and education. I wish to investigate these claims and find other such trends in the dataset.
 
 ## References
 
@@ -181,8 +201,12 @@ There are several claims made online regarding inequality in educations, bias to
 
 [6] World Inequality Database on Education - [https://www.education-inequalities.org/](https://www.education-inequalities.org/)
 
-[7] World Bank Country and Lending Groups - https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups
+[7] World Bank Country and Lending and Income Groups - [https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups](https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups)
 
-[8] What is the DEC conversion factor? - https://datahelpdesk.worldbank.org/knowledgebase/articles/77935-what-is-the-dec-conversion-factor
+[8] What is the DEC conversion factor? - [https://datahelpdesk.worldbank.org/knowledgebase/articles/77935-what-is-the-dec-conversion-factor](https://datahelpdesk.worldbank.org/knowledgebase/articles/77935-what-is-the-dec-conversion-factor)
 
-[9] World Bank Knowledge Base - https://datahelpdesk.worldbank.org/knowledgebase
+[9] World Bank Knowledge Base - [https://datahelpdesk.worldbank.org/knowledgebase](https://datahelpdesk.worldbank.org/knowledgebase)
+
+[10] Gender Parity Inde - [https://unstats.un.org/unsd/mdg/Metadata.aspx?IndicatorId=9](https://unstats.un.org/unsd/mdg/Metadata.aspx?IndicatorId=9)
+
+[11] Guardian Article on 'Why girls in India are still missing out on the education they need' - [https://www.theguardian.com/education/2013/mar/11/indian-children-education-opportunities](https://www.theguardian.com/education/2013/mar/11/indian-children-education-opportunities)
