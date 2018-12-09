@@ -59,9 +59,9 @@ The [Education Statistics](https://datacatalog.worldbank.org/dataset/education-s
 1.  UIS ([UNESCO Institute for Statistics](http://uis.unesco.org/)) - Administrative country data
 2. Several International and Regional learning assessments
 3. [World Bank Education Projects Database](http://datatopics.worldbank.org/education/wQueries/qprojects) - activities, components and sub-sectors of WB Education projects since 1998
-4. [ World Bank Education Expenditures Database](http://datatopics.worldbank.org/education/wQueries/qexpenditures) - Education expenditure data
+4. [World Bank Education Expenditures Database](http://datatopics.worldbank.org/education/wQueries/qexpenditures) - Education expenditure data
 
-The dataset has been downloaded and added to the [`data`](https://github.com/CoderHam/data-512-final-project/tree/master/data) directory and consists of 5 parts that have been described below:
+The datasets have been downloaded and added to the [`data`](https://github.com/CoderHam/data-512-final-project/tree/master/data) directory and consists of 5 parts that have been described below, plus one additional dataset for income groups:
 
 1.  [**EdStatsCountry.csv**](https://github.com/CoderHam/data-512-final-project/tree/master/data/EdStatsCountry.csv)
 
